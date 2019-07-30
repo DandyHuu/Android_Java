@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="3"
+           android:orientation="horizontal">
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/left_arrow"
+                   android:scaleType="center"
+                   android:tint="#F5F5F5"
+                   />
+           </LinearLayout>
+           <LinearLayout
+               android:paddingLeft="20dp"
+               android:layout_width="0dp"
+               android:layout_weight="4"
+               android:layout_height="match_parent"
+               android:padding="10dp"
+               >
+               <TextView
+                   android:textColorHint="#DFDCDC"
+                   android:background="#fff"
+                   android:layout_width="match_parent"
+                   android:drawablePadding="20dp"
+                   android:layout_height="match_parent"
+                   android:textColor="#F5F5F5"
+                   android:lines="1"
+                   android:hint="Tìm kiếm bạn bè, người thân"
+                   android:ellipsize="end"
+                   android:textSize="20sp"
+                   android:gravity="center"
+                   />
+           </LinearLayout>
+
+           <LinearLayout
+
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/hoanghon"
+                   android:scaleType="centerInside"
+                   />
+           </LinearLayout>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|bottom"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="News"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/boxshadow_fit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+               >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/zoro"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ronaldo và sự nổi tiếng"
+                    android:textSize="20sp"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Sự thật sau mỗi lần ra sân của siêu tuyển thủ"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Mon,06 AUG 2019 18:10:04 GMT"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/boxshadow_fit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/zoro"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ronaldo và sự nổi tiếng"
+                    android:textSize="20sp"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Sự thật sau mỗi lần ra sân của siêu tuyển thủ"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Mon,06 AUG 2019 18:10:04 GMT"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/boxshadow_fit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/zoro"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ronaldo và sự nổi tiếng"
+                    android:textSize="20sp"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Sự thật sau mỗi lần ra sân của siêu tuyển thủ"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Mon,06 AUG 2019 18:10:04 GMT"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/boxshadow_fit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/zoro"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ronaldo và sự nổi tiếng"
+                    android:textSize="20sp"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Sự thật sau mỗi lần ra sân của siêu tuyển thủ"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Mon,06 AUG 2019 18:10:04 GMT"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/boxshadow_fit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/zoro"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ronaldo và sự nổi tiếng"
+                    android:textSize="20sp"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Sự thật sau mỗi lần ra sân của siêu tuyển thủ"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:text="Mon,06 AUG 2019 18:10:04 GMT"
+                    android:textSize="16sp"
+                    android:textColor="#7C7E7E"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

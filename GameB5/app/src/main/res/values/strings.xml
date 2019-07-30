@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GameB5</string>
+    <string name="username">Username</string>
+    <string name="you_win">You Win!</string>
+    <string name="you_lose">You Lose!</string>
+    <string name="start">Start</string>
+    <string name="info_error">You need fill username</string>
+</resources>

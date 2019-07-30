@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game_play"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:id="@+id/im_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_avatar"
+                android:scaleType="centerInside"
+
+                />
+            <TextView
+                android:id="@+id/tv_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_alignRight="@+id/im_avatar"
+                android:layout_centerVertical="true"
+
+                android:background="@drawable/ic_heart"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/tv_point"
+                android:background="@drawable/bg_coin"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:layout_width="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/img_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/danhlua"
+            />
+
+        <ImageButton
+            android:paddingHorizontal="30dp"
+            android:background="@drawable/bg_picture_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_12"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_13"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_14"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_15"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_answer_16"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_12"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_13"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_14"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_15"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+            <com.t3h.buoi6.AnswerButton
+                android:id="@+id/btn_question_16"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tile_hover"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

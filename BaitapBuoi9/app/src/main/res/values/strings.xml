@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BaitapBuoi9</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_create_name">Create Students</string>
+    <string name="action_update_name">Update Students</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#0E2138"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+
+    >
+        <TextView
+            android:id="@+id/txt_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="You score : 0"
+            android:textColor="#15CEE6"
+            android:gravity="center|right"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:drawableTint="#15CEE6"
+            android:drawableLeft="@drawable/time"
+            android:drawablePadding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Time : 0"
+            android:textColor="#15CEE6"
+            android:gravity="center|right"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        >
+
+        <TextView
+            android:id="@+id/txt_cauhoi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="X + Y = Z"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="40sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/img_true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_true"
+                android:scaleType="centerInside"
+                />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+            <ImageView
+                android:id="@+id/img_false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_false"
+                android:scaleType="centerInside"
+                />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        ></LinearLayout>
+</LinearLayout>

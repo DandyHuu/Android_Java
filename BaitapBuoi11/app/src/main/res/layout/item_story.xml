@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    android:background="#D82B3969"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    >
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/im_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/sen"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#2196F3"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FF9800"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv_chapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chapter" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+    </LinearLayout>
+
+</LinearLayout>

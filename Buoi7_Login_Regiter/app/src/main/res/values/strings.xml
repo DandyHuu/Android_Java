@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Buoi7</string>
+    <string name="login_name">Login</string>
+    <string name="regiter_name">Regiter</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="data_invilid">Check info not null</string>
+    <string name="regiter_cancle">Opps! Error</string>
+    <string name="btn_call">CALL</string>
+    <string name="btn_brower">BROWER</string>
+    <string name="btn_libri">LIB</string>
+    <string name="brower">Brower...</string>
+</resources>
+
