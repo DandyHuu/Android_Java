@@ -34,6 +34,7 @@ public class WedActivity extends AppCompatActivity {
         check = webView.getSettings().getJavaScriptEnabled();
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
+//        webView.performLongClick()
         Intent intent = getIntent();
         String url = intent.getStringExtra(Const.EXTRA_URL);
         if (check == true) {
