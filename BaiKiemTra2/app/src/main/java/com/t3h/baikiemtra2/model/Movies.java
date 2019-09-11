@@ -1,11 +1,11 @@
-package com.t3h.baitap2buoi16.model;
+package com.t3h.baikiemtra2.model;
 
 import com.google.gson.annotations.SerializedName;
 
 public class Movies {
     @SerializedName("title")
     private String title;
-    @SerializedName("title")
+    @SerializedName("image")
     private String image;
     @SerializedName("releaseYear")
     private String year;

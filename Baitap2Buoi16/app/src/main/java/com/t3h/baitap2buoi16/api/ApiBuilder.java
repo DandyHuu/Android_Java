@@ -16,4 +16,15 @@ public class ApiBuilder {
         }
         return api;
     }
+    
+    public static Api getIntance2(){
+        if (api == null) {
+            api = new Retrofit.Builder()
+                    .baseUrl("https://api.androidhive.info/json/")
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build()
+                    .create(Api.class);
+        }
+        return api;
+    }
 }

@@ -1,36 +1,16 @@
-package com.t3h.baitap2buoi16.api;
+package com.t3h.baikiemtra2.api;
 
-import com.t3h.baitap2buoi16.model.Movies;
-import com.t3h.baitap2buoi16.model.News;
-import com.t3h.baitap2buoi16.model.NewsResponse;
-
+import com.t3h.baikiemtra2.model.Movies;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import retrofit2.Call;
-import retrofit2.Callback;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 
 public interface Api {
-//    @GET("/json/movies.json")
-//    Call<NewsResponse> getNews(@Query("q") String keySearch,
-//                               @Query("apiKey") String apiKey,
-//                               @Query("language") String lan);
-//    @GET("everything")
-//    Call<NewsResponse> getSearchNull(@Query("q") String keySearch,
-//                                     @Query("apiKey") String apiKey
-//                                     );
-    @GET("movie/popular")
-    Call<NewsResponse> getMovies(
-                                 @Query("apiKey") String apiKey
-                                 );
 
     @GET("movies.json")
     Call<ArrayList<Movies>> getMoviesM();
 
-//    @GET("/json/movies.json")
-//    List<NewsResponse> getBooks(Callback<List<News>> response);
 
 }
