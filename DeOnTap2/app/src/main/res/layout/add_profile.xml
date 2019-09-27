@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="7dp"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:src="@drawable/male"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edt_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birth of day"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"/>
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender :"
+        />
+</LinearLayout>

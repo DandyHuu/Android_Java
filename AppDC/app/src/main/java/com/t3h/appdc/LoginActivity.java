@@ -17,6 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_dangnhap);
         initFragment();
         showFragment(frmLogin);
@@ -48,5 +49,10 @@ public class LoginActivity extends AppCompatActivity {
 
     public ResgeterFragment getFrmResgeter() {
         return frmResgeter;
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
     }
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/ic_music_video_black_24dp"
+        android:backgroundTint="#F70909"
+        />
+    <LinearLayout
+        android:paddingHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#F70909"
+            android:text="Data"/>
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_art"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"/>
+            <TextView
+                android:layout_alignParentRight="true"
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album"/>
+
+    </LinearLayout>
+
+</LinearLayout>

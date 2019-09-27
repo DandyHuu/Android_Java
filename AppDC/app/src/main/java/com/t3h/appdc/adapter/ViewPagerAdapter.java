@@ -9,8 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 public class ViewPagerAdapter extends FragmentPagerAdapter {
     private Fragment[] data;
 
-    public ViewPagerAdapter(@NonNull FragmentManager fm) {
+    public ViewPagerAdapter(@NonNull FragmentManager fm, Fragment[] fms)
+    {
         super(fm);
+        this.data = fms;
     }
 
     public void setData(Fragment[] data) {

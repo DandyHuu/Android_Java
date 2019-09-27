@@ -46,6 +46,24 @@ public class ResgeterFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_dangky_re:
+                String pass_re = edtPassRe.getText().toString();
+                String phone = edtPhoneRe.getText().toString();
+                String user_re = edtUserRe.getText().toString();
+                if (user_re.isEmpty()) {
+                    edtUserRe.requestFocus();
+                    edtUserRe.setError("Vui lòng điền tên đăng nhập!");
+                    return;
+                }
+                if (pass_re.isEmpty()) {
+                    edtPassRe.requestFocus();
+                    edtPassRe.setError("Vui lòng điền mật khẩu!");
+                    return;
+                }
+                if (phone.isEmpty()) {
+                    edtPhoneRe.requestFocus();
+                    edtPhoneRe.setError("Vui lòng điền số điện thoại!");
+                    return;
+                }
                 LoginActivity login = (LoginActivity) getActivity();
                 login.showFragment(login.getFrmLogin());
                 break;
